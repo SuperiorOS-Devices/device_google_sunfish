@@ -16,6 +16,10 @@
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/sunfish
 
+# avoid using generic aosp_product.mk libnfc-nci.conf
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf
+
 #
 # All components inherited here go to system image
 #
