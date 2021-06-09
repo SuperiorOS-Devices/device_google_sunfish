@@ -34,9 +34,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sunfish \
-    PRIVATE_BUILD_DESC="sunfish-user 11 RQ2A.210505.002 7246365 release-keys" \
+    PRIVATE_BUILD_DESC="sunfish-user 11 RQ3A.210605.005 7349499 release-keys" \
 
-BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ2A.210505.002/7246365:user/release-keys
+BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
