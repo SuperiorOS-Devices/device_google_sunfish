@@ -30,14 +30,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleParts \
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.pixel \
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service \
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
