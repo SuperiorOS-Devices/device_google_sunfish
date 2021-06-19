@@ -436,7 +436,4 @@
 
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
-
-     <!-- Enable face auth only when swiping security view -->
-     <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
 </resources>
