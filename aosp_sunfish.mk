@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/sunfish
+
 #
 # All components inherited here go to system image
 #
@@ -21,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
 
 # Enable mainline checking
-PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
+#PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
 
 #
 # All components inherited here go to system_ext image
