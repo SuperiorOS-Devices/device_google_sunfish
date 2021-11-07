@@ -38,9 +38,9 @@ PRODUCT_MODEL := Pixel 4a
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="sunfish" \
-    PRIVATE_BUILD_DESC="sunfish-user 12 SP1A.210812.015 7679548 release-keys"
+    PRIVATE_BUILD_DESC="sunfish-user 12 SP1A.211105.002 7743617 release-keys"
 
-BUILD_FINGERPRINT := "google/sunfish/sunfish:12/SP1A.210812.015/7679548:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:12/SP1A.211105.002/7743617:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/sunfish/sunfish:12/SP1A.210812.015/7679548:user/release-keys
+    ro.build.fingerprint=google/sunfish/sunfish:12/SP1A.211105.002/7743617:user/release-keys
