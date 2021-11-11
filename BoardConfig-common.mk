@@ -71,6 +71,8 @@ TARGET_NO_KERNEL := false
 BOARD_USES_RECOVERY_AS_BOOT := true
 BOARD_USES_METADATA_PARTITION := true
 
+TARGET_PREBUILT_KERNEL := device/google/sunfish-kernel/Image.lz4
+
 AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
