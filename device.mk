@@ -90,6 +90,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PROPERTY_OVERRIDES += \
 #    ro.control_privapp_permissions=enforce
 
+# Adaptive charging
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/adaptivecharging.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/adaptivecharging.xml
+
 PRODUCT_PACKAGES += \
     messaging
 
