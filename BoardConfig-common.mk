@@ -73,6 +73,11 @@ BOARD_USES_METADATA_PARTITION := true
 
 TARGET_PREBUILT_KERNEL := device/google/sunfish-kernel/Image.lz4
 
+# Kernel modules
+BOOT_KERNEL_MODULES += \
+    heatmap.ko \
+    ftm5.ko
+
 AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
